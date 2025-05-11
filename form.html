@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./form.css">
+</head>
+<body>
+    <main class="container">
+        <aside class="sidebar">
+            <div class="sidebar__logo">
+                <img src="./src/odin-lined.png" alt="Odin_line">
+                <h1 class="sidebar__text">Odin</h1>
+            </div>
+        </aside>
+        <section class="form_register">
+            <article>
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. 
+                    <br>Sign up now to get started.</p>
+                <p>You <i>know</i> you want to</p>
+            </article>
+            <form>
+                <fieldset>
+                    <p class="form_register--title">Let's do this!</p>
+                    <div class="form_register--name">
+                        <div>
+                            <label for="first_name">FIRST NAME</label>
+                            <input type="text" name="first" id="first_name">
+                        </div>
+                        <div>
+                            <label for="last_name">LAST NAME</label>
+                            <input type="text" name="last" id="last_name">
+                        </div>
+                    </div>
+
+                    <div class="form_register--information">
+                        <div>
+                            <label for="email">EMAIL</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+                        <div>
+                            <label for="phone">PHONE NUMBER</label>
+                            <input type="tel" name="last" id="phone">
+                        </div>
+                        
+                    </div>
+
+                    <div class="form_register--password">
+                        <div>
+                            <label for="pass">PASSWORD</label>
+                            <input required type="password" name="password" id="pass">
+                        </div>
+                        <div>
+                            <label for="confirm_pass">CONFIRM PASSWORD</label>
+                            <input required type="password" name="confirm_pass" id="confirm_pass">
+                        </div>
+                    </div>
+                </fieldset>
+                <footer>
+                    <button type="submit">Create Account</button>
+                    <p>Already have an account?<span>Log in</span></p>
+                </footer>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
